@@ -1,22 +1,21 @@
 *{
-    margin: 0;
-    padding: 0;
+margin: 0;
+padding: 0;
 }
 
-.cabeçalho {
+.cabecalho {
     background-color: #8dc9c8;
-display : flex;
+display: flex;
 justify-content: space-around;
 align-items: center;
-margin: 24px 0;
+padding: 18px 0;
+font-size: 24px;
 }
+.cabecalho-imagem{
+    width: 7%;
 
-.cabeçalho-imagem{
-    width: 10%;
 }
-
-.cabeçalho-lista-item {
+.cabecalho-lista-item{
     display: inline-block;
- margin: 0 16px;
- font-size: 24px;
+    margin: 0 16px;
 }
