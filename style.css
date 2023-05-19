@@ -1,5 +1,39 @@
-body{
-   background-color: gray;
+*{
+margin: 0;
+padding: 0;
+}
 
+.cabecalho {
+    background-color: #8dc9c8;
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 18px 0;
+font-size: 24px;
+}
+.cabecalho-imagem{
+    width: 7%;
 
+}
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+}
+.sobre-imagem{
+    width: 15%;
+}
+.sobre-imagem{
+    display: inline-block;
+    margin:0 1100px ;
+}
+
+.imagem-de-contato{
+    width: 25%;
+    margin: 000,5px;
+}
+.número-de-celular{
+    padding-left: 8% ;
+}
+.texto-do-contato{
+    padding-left: 8% ;
 }
