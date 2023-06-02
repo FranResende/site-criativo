@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 18px 0;
+    padding: 10px 0;
     font-size: 24px;
     }
     .cabecalho-imagem{
@@ -16,24 +16,50 @@
     
     }
     .cabecalho-lista-item{
-        display: inline-block;
-        margin: 0 16px;
+        padding: 20px;
     }
-    .sobre-imagem{
-        width: 15%;
+    .sobre{
+        background-color: aliceblue;
+        color: black;
+        padding: 5cm 0;
+        display: flex;
+        justify-content: center;
     }
-    .sobre-imagem{
-        display: inline-block;
-        margin:0 1100px ;
+    .sobre-titulo{
+        padding: 20px;
+        font-size: 30px;
     }
-    
+    .sobre-texto-um{
+        padding: 10px;
+        font-size: 20px;
+    }
+    .sobre-texto-dois{
+        padding: 10px;
+        font-size: 20px;
+    }
+    .sobre-título-dois{
+        padding: 10px;
+        font-size: 20px;
+    }
+    .sobre-texto-três{
+        padding: 8px;
+        font-size: 20px;
+    }
+    .sobre-texto-quatro{
+        padding: 8px;
+        font-size: 20px;
+    }
     .imagem-de-contato{
-        width: 25%;
-        margin: 000,5px;
+        width: 10%;
+        padding: 10px;
     }
     .número-de-celular{
-        padding-left: 8% ;
+        padding-left: 1% ;
     }
     .texto-do-contato{
-        padding-left: 8% ;
+        padding-left: 1% ;
+    }
+    .número-1{
+        display: 0 10px;
+        padding-left: 1%;
     }
